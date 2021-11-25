@@ -16,5 +16,5 @@ Example repository on how to run a SvelteJS (SvelteKit) website on Cloudflare Wo
 ## Usage
 
 ```shell
-% make install install dev
+% make install dev
 ```
