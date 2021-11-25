@@ -1,5 +1,5 @@
 # default action
-all: dev
+all: check dev
 
 # run the development environment locally
 dev:
@@ -16,3 +16,8 @@ install:
 # deploy to cloudflare workers
 deploy:
 	npx wrangler publish --verbose --env=prod
+
+# run the svelte/typescrip check
+check:
+	npm run check
+	npm run lint
