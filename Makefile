@@ -21,3 +21,7 @@ deploy:
 check:
 	npm run check
 	npm run lint
+
+# build sveltejs
+build:
+	npm run build

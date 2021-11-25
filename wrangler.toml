@@ -19,7 +19,7 @@ format = "service-worker"
 
 [site]
 bucket = "./build"
-entrypoint = "./workers-site"
+entry-point = "./worker"
 
 [miniflare]
 host = "localhost"
