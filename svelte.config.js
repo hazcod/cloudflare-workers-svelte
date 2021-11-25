@@ -14,9 +14,7 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		// enable the Cloudflare Worker adapter
-		adapter: adapter({
-			'entry-point': 'worker/', 
-		})
+		adapter: adapter()
 	}
 };
 
