@@ -1,0 +1,28 @@
+name = "ironsecurity-platform-web"
+type = "javascript"
+
+workers_dev = false
+usage_model = 'bundled'
+compatibility_flags = []
+compatibility_date  = "2021-11-25"
+
+[env.prd]
+account_id = ""
+zone_id = ""
+
+[env.dev.build]
+command = "npm run build"
+watch_dir = "./src"
+
+[env.dev.build.upload]
+format = "service-worker"
+
+[site]
+bucket = "./build"
+entrypoint = "./workers-site"
+
+[miniflare]
+host = "localhost"
+port = "3000"
+watch = true
+live_reload = true
