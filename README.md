@@ -2,7 +2,6 @@
 
 Example repository on how to run a SvelteJS (SvelteKit) website on Cloudflare Workers.
 
-
 ## Overview
 
 - `src/`: the SvelteJS source code which consists of HTML, TypeScript and Sass.
@@ -13,3 +12,9 @@ Example repository on how to run a SvelteJS (SvelteKit) website on Cloudflare Wo
 - `svelte.config.js`: the SvelteJS configuration file.
 - `tsconfig.json`: the TypeScript configuration file.
 - `wrangler.toml`: the wrangler/miniflare configuration file to run locally or deploy to Cloudflare Workers.
+
+## Usage
+
+```shell
+% make install install dev
+```
