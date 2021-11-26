@@ -1,4 +1,4 @@
-name = "ironsecurity-platform-web"
+name = "cloudflare-workers-svelte"
 type = "javascript"
 
 workers_dev = false
