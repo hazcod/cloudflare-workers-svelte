@@ -7,7 +7,7 @@ dev:
 
 # clean all artifacts
 clean:
-	rm -r build/ .svelte-kit/ dist/ node_modules/ || true
+	rm -r build/ .cloudflare/ .svelte-kit/ dist/ node_modules/ || true
 
 # install dependencies
 install:

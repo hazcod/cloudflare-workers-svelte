@@ -7,7 +7,7 @@ Example repository on how to run a SvelteJS (SvelteKit) website on Cloudflare Wo
 - `src/`: the SvelteJS source code which consists of HTML, TypeScript and Sass.
 - `lib/`: the SvelteJS library files which indicate shared code.
 - `static/`: any public assets such as images.
-- `worker/`: the automatically generated Cloudflare Worker assets (from `npm install`), do not edit.
+- `.cloudflare/`: the automatically generated Cloudflare Worker assets (from `npm install`), do not edit.
 - `.eslintrc.cjs`: the ESLint configuration for the TypeScript files.
 - `Makefile`: the file which builds the SvelteJS website.
 - `svelte.config.js`: the SvelteJS configuration file.
