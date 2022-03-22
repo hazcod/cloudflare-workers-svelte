@@ -32,7 +32,7 @@ jobs:
         languages: javascript
     -
       name: Cache npm dependencies
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: '~/.npm'
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
