@@ -23,7 +23,7 @@
 		"eslint-plugin-svelte3": "^3.3.0",
 		"miniflare": "^2.0.0-rc.5",
 		"prettier": "^2.5.1",
-		"prettier-plugin-svelte": "^2.5.1",
+		"prettier-plugin-svelte": "^2.7.1",
 		"sass": "^1.46.0",
 		"svelte": "^3.44.3",
 		"svelte-check": "^2.2.11",
